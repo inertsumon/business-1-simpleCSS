@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 40px;
+}
+
+.nav-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-li li {
+  list-style: none;
+  margin-right: 20px;
+  padding: 10px;
+}
+.nav-li a {
+  text-decoration: none;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(94, 94, 238);
+  padding: 60px 0px;
+}
+.intro-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  width: 100%;
+  row-gap: 30px;
+}
+.intro-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.intro-img1 img {
+  position: relative;
+  top: 140px;
+  width: 100%;
+}
+
+.intro-img2 img {
+  width: 100%;
+}
+.intro a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+.sec-1 {
+  background-color: #6cf0b025;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 100%;
+}
+.list-intro {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.list-item {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list-img {
+  margin-bottom: 24px;
+}
+.container {
+  margin-top: 80px;
+}
+.common-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.common-text h3 {
+  margin-bottom: 20px;
+}
+.common-img img {
+  width: 100%;
+}
